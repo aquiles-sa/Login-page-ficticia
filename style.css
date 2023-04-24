@@ -1,0 +1,275 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("images/coding.jpg");
+	background-size: cover;
+	font-family: "Trebuchet MS", "Helvetica", sans-serif;
+}
+
+/******** Header area style *********/
+
+
+#header-background {
+	background: rgba(17, 2, 50, 0.6);
+	backdrop-filter: blur(4px);
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	line-height: 25px;
+	gap: 100px;
+	min-width: 1280px;
+}
+
+div#logo h2 {
+	text-transform: uppercase;
+	color: #fff;
+}
+
+span {
+	color: #00e421;
+}
+
+div#nav-area {
+	margin-left: 10px;
+}
+
+div#nav-area ul {
+	background: transparent;
+	line-height: 20px;
+}
+
+div#nav-area ul li {
+	border-left: 1px solid #00e421;
+}
+
+div#nav-area ul li a {
+	margin-left: 10px;
+	color: #fff;
+	font-size: 1.1em;
+	transition: .3s;
+}
+
+div#nav-area ul li a:hover {
+	color: #00e421;
+	text-shadow: 0 0 2px #57ff07;
+	font-size: 20px;
+}
+
+div#nav-area ul li.first {
+	border: none;
+}
+
+div.header-login {
+	color: #00e421;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 20px;
+	text-indent: 195px;
+}
+
+
+/******** Login area style *********/
+
+main div#login-area {
+	background: rgba(104, 104, 104, 0.2);
+	backdrop-filter: blur(8px);
+	width: 400px;
+	margin-left: 170px;
+	margin-right: auto;
+	margin-top: 11vh;
+	border-radius: 20px;
+	padding: 20px 30px;
+	text-align: center;
+	box-shadow: 0 0 5px #000;
+}
+
+a {
+	font-size: 1.0em;
+	transition: .3s;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #303631;
+}
+
+a:hover {
+	color: #00e421;
+}
+
+form a.forgot-password {
+	display: block;
+	font-size: .9em;
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	transition: none;
+	color: #4be303;
+}
+
+form a.forgot-password:hover {
+	cursor: pointer;
+}
+
+a.sign-up {
+	text-decoration: underline;
+	color: #b0b0b0;
+}
+
+a.sign-up:hover {
+	color: #ffa300;
+}
+
+h3 {
+	font-size: 1.3em;
+	color: #fff;
+}
+
+form {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+label,
+input {
+	display: block;
+}
+
+label {
+	text-align: left;
+	margin-top: 15px;
+	font-size: 1.0em;
+	color: #fff;
+}
+
+input {
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #121212;
+	width: 100%;
+	transition: .3s;
+	padding: 7px;
+	background: none;
+	color: #fff;
+}
+
+input::placeholder {
+	color: #b0b0b0;
+}
+
+input:focus {
+	border-bottom: 2px solid #39b200;
+}
+
+input.log-in {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 15px;
+	padding: 10px;
+	border: none;
+	border-radius: 20px;
+	background: #00b71e;
+	color: #110232;
+	cursor: pointer;
+	transition: .3s;
+}
+
+input.log-in:hover {
+	background: #110232;
+	color: #00b71e;
+}
+
+
+
+/******** Social medias area style *********/
+
+p {
+	font-size: 15px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+ul {
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul li {
+	display: inline-block;
+	margin: 5px;
+}
+
+#medias-area i {
+	height: 45px;
+	width: 45px;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	border-radius: 50%;
+	line-height: 45px;
+	margin: 0 5px;
+	font-size: 20px;
+	text-indent: 2px;
+	color: #fff;
+	transition: .3s;
+}
+
+#medias-area i#facebook:hover {
+	border: 1px solid #344397;
+	background: rgba(52, 67, 151, 0.1);
+	color: #1d3ce9;
+	box-shadow: 0 0 5px #0067ff;
+	font-size: 30px;
+}
+
+#medias-area i#instagram:hover {
+	border: 1px solid #d72888;
+	background: rgba(215, 40, 136, 0.1);
+	color: #fb30a0;
+	box-shadow: 0 0 5px #ff32e0;
+	font-size: 30px;
+}
+
+#medias-area i#twitter:hover {
+	border: 1px solid #38a1f3;
+	background: rgba(56, 161, 243, 0.1);
+	color: #1e76ba;
+	box-shadow: 0 0 5px #1e76ba;
+	font-size: 30px;
+}
+
+#register {
+	margin-top: 10px;
+	padding: 5px;
+}
+
+/******** Text-side area style *********/
+
+div#text-area {
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	position: relative;
+	bottom: 270px;
+	right: 20px;
+	width: 55vw;
+}
+
+h1.text {
+	font-size: 40px;
+	color: #fff;
+}
+
+div#text-area span {
+	color: #00e421;
+	float: right;
+}
